@@ -10,7 +10,7 @@ import JsonEditor from "../components/JsonEditor";
 function Editor({ isDark }) {
   const [jsonInput, setJsonInput] = useState(`{
   "project": {
-    "name": "JsonGraph",
+    "name": "JSON Graph",
     "tagline": "JSON visualization made simple",
     "version": "1.0.0",
     "features": [
@@ -27,7 +27,7 @@ function Editor({ isDark }) {
       {
         "id": 3,
         "name": "JSON Editor",
-        "enabled": false
+        "enabled": true
       }
     ],
     "techStack": {
@@ -43,10 +43,8 @@ function Editor({ isDark }) {
         "library": "React Flow",
         "layoutEngine": "Dagre",
         "editor": "CodeMirror"
-      }
-    },
-    "settings": {
-      "theme": "dark"
+      },
+      "icons": "Lucide React"
     }
   }
 }`);

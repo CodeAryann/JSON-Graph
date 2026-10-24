@@ -14,7 +14,7 @@ function layoutGraph(nodes, edges) {
 
   const nodeWidth = 150;
   const nodeHeight = 40;
-  const verticalGap = 20;
+  const verticalGap = 25;
   const rootGap = 40;
 
   // Give Dagre the dimensions of each node.

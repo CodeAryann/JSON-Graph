@@ -36,8 +36,8 @@ function GraphNode({ data }) {
             aria-label={isCollapsed ? "Expand node" : "Collapse node"}
             className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-md border text-xs font-bold transition-colors ${
               isDark
-                ? "border-blue-900 text-[#ffea00] hover:border-indigo-400 hover:bg-slate-800"
-                : "border-indigo-400 text-[#ff8800] hover:border-indigo-300 hover:bg-indigo-50"
+                ? "border-blue-900 text-[#ffbe0b] hover:border-indigo-400 hover:bg-slate-800"
+                : "border-indigo-400 text-[#f35b04] hover:border-indigo-300 hover:bg-indigo-50"
             }`}
           >
             {isCollapsed ? "+" : "-"}
